@@ -7,7 +7,7 @@ const channels = () => {
   return (
     <div>
       {/* <!-- Start header Area --> */}
-      <section id="hero-area" class="header-area header-eight">
+      <section id="channeloffered" class="header-area header-eight">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-12 col-12">
@@ -99,7 +99,7 @@ const channels = () => {
              
             </div>
             <div class="col-lg-6 col-md-12 col-12">
-            <div class="header-image channel-header-image">
+            <div class="header-image channel-header-image header-imagecontent">
                 <img src={channel} alt="channel" />
               </div>
             </div>

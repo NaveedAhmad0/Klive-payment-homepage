@@ -9,23 +9,20 @@ import Footer from "../Components/Footer/footer";
 import About from "../Components/About/about";
 import Ourservice from "../Components/Our-Service/ourservice";
 import Channels from "../Components/Channels-offered/channels";
-import "./Home.css"
+import "./Home.css";
 
 const Home = () => {
   return (
     // <BrowserRouter>
-      <div>
-        <Navbar />
-        {/* <Sidebar /> */}
-        <Header />
-        <Price />
-     
-      <Ourservice/>
-      <Channels/>
+    <div>
+      <Navbar />
+      <Header />
+      <Price />
+      <Ourservice />
+      <Channels />
       <Service />
-        {/* <About /> */}
-        <Footer />
-      </div>
+      <Footer />
+    </div>
     // </BrowserRouter>
   );
 };

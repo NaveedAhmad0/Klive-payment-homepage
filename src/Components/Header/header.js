@@ -5,8 +5,8 @@ const header = () => {
   return (
     <div>
       {/* <!-- Start header Area --> */}
-      <section id="hero-area" class="header-area header-eight">
-        <div class="container" style={{marginTop:"-7rem"}}>
+      <section id="home" class="header-area header-eight">
+        <div class="container" >
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-12 col-12">
               <div class="header-content ">
@@ -35,16 +35,16 @@ const header = () => {
               </div>
             </div>
             <div class="col-lg-6 col-md-12 col-12">
-          <div class="header-image">
+          <div class="header-image header-imagecontent">
             <img src={banner} alt="banner" />
           </div>
         </div>
           </div>
           {/* <br></br> */}
-          <div className="d-flex justify-content-between">
-                  <div className="d-flex justify-content-around"><h4>2300+ </h4><span>user Active</span></div>
-                 <div className="d-flex justify-content-around"> <h4>150+ </h4><span>Trusted By Company</span></div>
-                  <div className="d-flex justify-content-around"><h4>$280M+ </h4><span>Transaction</span></div>
+          <div className="d-flex justify-content-around">
+                  <div id="header-point" className="d-flex justify-content-around"><h4>2300+ </h4><span>user Active</span></div>
+                 <div id="header-point" className="d-flex justify-content-around"> <h4>150+ </h4><span>Trusted By Company</span></div>
+                  <div id="header-point" className="d-flex justify-content-around"><h4>$280M+ </h4><span>Transaction</span></div>
                 </div>
         </div>
       </section>

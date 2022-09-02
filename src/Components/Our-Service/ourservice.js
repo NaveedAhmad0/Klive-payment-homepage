@@ -7,7 +7,7 @@ const ourservice = () => {
   return (
     <div>
       {/* <!-- Start header Area --> */}
-      <section id="hero-area" class="header-area header-eight">
+      <section id="ourservices" class="header-area header-eight">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-12 col-12">

@@ -5,7 +5,7 @@ const price = () => {
   return (
     <div>
       {/* <!-- Start Pricing  Area --> */}
-      <section id="pricing" class="pricing-area pricing-fourteen">
+      <section id="whatwedo" class="pricing-area pricing-fourteen">
         {/* <!--======  Start Section Title Five ======--> */}
         <div class="section-title-five">
           <div class="container">

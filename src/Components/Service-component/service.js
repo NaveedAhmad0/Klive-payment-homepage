@@ -9,7 +9,7 @@ const service = () => {
   return (
     <div>
       {/* <!-- ===== service-area start ===== --> */}
-      <section id="services" class="services-area services-eight">
+      <section id="testimonials" class="services-area services-eight">
         {/* <!--======  Start Section Title Five ======--> */}
         <div class="section-title-five">
           <div class="container">
