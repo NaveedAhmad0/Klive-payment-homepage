@@ -5,7 +5,7 @@ const header = () => {
 	return (
 		<div>
 			{/* <!-- Start header Area --> */}
-			<section id="home" class="header-area header-eight py-5">
+			<section id="home" class="header-area HomeHeader header-eight py-5">
 				<div class="container ">
 					<div class="row align-items-center mb-5">
 						<div class="col-lg-6 col-md-12 col-12">
