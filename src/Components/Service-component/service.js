@@ -3,7 +3,11 @@ import "./services.css";
 import Ellipse from "../../img/Ellipse 13.png";
 import Ellipse1 from "../../img/Ellipse 12.png";
 import Ellipse2 from "../../img/Ellipse 11.png";
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-elastic-carousel";
+import Item from "./Item";
+
+// import Carousel from "react-bootstrap/Carousel";
+// import Item from "react-elastic-carousel";
 // const service = () => {
 // 	return (
 // 		<div>
@@ -32,7 +36,7 @@ import Carousel from "react-bootstrap/Carousel";
 // 				{/* <!--======  End Section Title Five ======--> */}
 // 				<div class="container">
 // 					<div class="row">
-// 						<div class="col-lg-4 col-md-6">
+// 						<div class="col-lg-12 col-md-6">
 // 							<div class="single-services">
 // 								<div class="service-content">
 // 									<h1
@@ -127,9 +131,16 @@ import Carousel from "react-bootstrap/Carousel";
 
 // export default service;
 function service() {
+	const breakPoints = [
+		{ width: 1, itemsToShow: 1 },
+		{ width: 550, itemsToShow: 2 },
+		{ width: 1200, itemsToShow: 3 },
+	];
 	return (
 		<>
-			<section id="testimonials" class="services-area services-eight">
+			<section
+				id="testimonials"
+				class="services-area serviceSection services-eight">
 				{/* <!--======  Start Section Title Five ======--> */}
 				<div class="section-title-five">
 					<div class="container">
@@ -150,93 +161,15 @@ function service() {
 					{/* <!-- container --> */}
 				</div>
 			</section>
-			<Carousel variant="dark">
-				<Carousel.Item>
+			<Carousel breakPoints={breakPoints} pagination={false} itemsToShow={3}>
+				<Item>
 					<section id="testimonials" class="services-area services-eight">
 						{/* <!--======  Start Section Title Five ======--> */}
 						<div class="section-title-five">{/* <!-- container --> */}</div>
 						{/* <!--======  End Section Title Five ======--> */}
 						<div class="container">
 							<div class="row">
-								<div class="mx-auto col-lg-8 col-md-6">
-									<div class="single-services">
-										<div class="service-content">
-											<h1
-												style={{
-													color: "#2D96D3",
-													fontSize: "3.5rem",
-													fontWeight: "900",
-												}}>
-												〃
-											</h1>
-											<p>
-												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
-												nonumy eirmod tempor ividunt labor dolore magna.
-											</p>
-										</div>
-
-										<div class="service-icon">
-											{/* <i class="lni lni-capsule"></i> */}
-											<img src={Ellipse} alt="testimonial" height={"75px"} />
-											<h6>Albert Flores</h6>
-											<div className="Paragrap">
-												<p>Head Of Finance</p>
-											</div>
-										</div>
-										<div></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</Carousel.Item>
-				<Carousel.Item>
-					<section id="testimonials" class="services-area services-eight">
-						{/* <!--======  Start Section Title Five ======--> */}
-						<div class="section-title-five">{/* <!-- container --> */}</div>
-						{/* <!--======  End Section Title Five ======--> */}
-						<div class="container">
-							<div class="row">
-								<div class="mx-auto col-lg-8 col-md-6">
-									<div class="single-services">
-										<div class="service-content">
-											<h1
-												style={{
-													color: "#2D96D3",
-													fontSize: "3.5rem",
-													fontWeight: "900",
-												}}>
-												〃
-											</h1>
-											<p>
-												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
-												nonumy eirmod tempor ividunt labor dolore magna.
-											</p>
-										</div>
-
-										<div class="service-icon">
-											{/* <i class="lni lni-capsule"></i> */}
-											<img src={Ellipse1} alt="testimonial" height={"75px"} />
-											<h6>Robert Fox</h6>
-											<div className="Paragrap">
-												<p>Head Of Finance</p>
-											</div>
-										</div>
-										<div></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</Carousel.Item>
-				<Carousel.Item>
-					<section id="testimonials" class="services-area services-eight">
-						{/* <!--======  Start Section Title Five ======--> */}
-						<div class="section-title-five">{/* <!-- container --> */}</div>
-						{/* <!--======  End Section Title Five ======--> */}
-						<div class="container">
-							<div class="row">
-								<div class="mx-auto col-lg-8 col-md-6">
+								<div class="mx-auto col-lg-12 col-md-6">
 									<div class="single-services">
 										<div class="service-content">
 											<h1
@@ -267,10 +200,247 @@ function service() {
 							</div>
 						</div>
 					</section>
-				</Carousel.Item>
+				</Item>
+				<Item>
+					<section id="testimonials" class="services-area services-eight">
+						{/* <!--======  Start Section Title Five ======--> */}
+						<div class="section-title-five">{/* <!-- container --> */}</div>
+						{/* <!--======  End Section Title Five ======--> */}
+						<div class="container">
+							<div class="row">
+								<div class="mx-auto col-lg-12 col-md-6">
+									<div class="single-services">
+										<div class="service-content">
+											<h1
+												style={{
+													color: "#2D96D3",
+													fontSize: "3.5rem",
+													fontWeight: "900",
+												}}>
+												〃
+											</h1>
+											<p>
+												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
+												nonumy eirmod tempor ividunt labor dolore magna.
+											</p>
+										</div>
+
+										<div class="service-icon">
+											{/* <i class="lni lni-capsule"></i> */}
+											<img src={Ellipse} alt="testimonial" height={"75px"} />
+											<h6>Albert Flores</h6>
+											<div className="Paragrap">
+												<p>Head Of Finance</p>
+											</div>
+										</div>
+										<div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</Item>
+				<Item>
+					<section id="testimonials" class="services-area services-eight">
+						{/* <!--======  Start Section Title Five ======--> */}
+						<div class="section-title-five">{/* <!-- container --> */}</div>
+						{/* <!--======  End Section Title Five ======--> */}
+						<div class="container">
+							<div class="row">
+								<div class="mx-auto col-lg-12 col-md-6">
+									<div class="single-services">
+										<div class="service-content">
+											<h1
+												style={{
+													color: "#2D96D3",
+													fontSize: "3.5rem",
+													fontWeight: "900",
+												}}>
+												〃
+											</h1>
+											<p>
+												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
+												nonumy eirmod tempor ividunt labor dolore magna.
+											</p>
+										</div>
+
+										<div class="service-icon">
+											{/* <i class="lni lni-capsule"></i> */}
+											<img src={Ellipse1} alt="testimonial" height={"75px"} />
+											<h6>Robert Fox</h6>
+											<div className="Paragrap">
+												<p>Head Of Finance</p>
+											</div>
+										</div>
+										<div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</Item>
+				<Item>
+					<section id="testimonials" class="services-area services-eight">
+						{/* <!--======  Start Section Title Five ======--> */}
+						<div class="section-title-five">{/* <!-- container --> */}</div>
+						{/* <!--======  End Section Title Five ======--> */}
+						<div class="container">
+							<div class="row">
+								<div class="mx-auto col-lg-12 col-md-6">
+									<div class="single-services">
+										<div class="service-content">
+											<h1
+												style={{
+													color: "#2D96D3",
+													fontSize: "3.5rem",
+													fontWeight: "900",
+												}}>
+												〃
+											</h1>
+											<p>
+												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
+												nonumy eirmod tempor ividunt labor dolore magna.
+											</p>
+										</div>
+
+										<div class="service-icon">
+											{/* <i class="lni lni-capsule"></i> */}
+											<img src={Ellipse2} alt="testimonial" />
+											<h6>Theresa Webb</h6>
+											<div className="Paragrap">
+												<p>Head Of Finance</p>
+											</div>
+										</div>
+										<div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</Item>
 			</Carousel>
 		</>
 	);
 }
 
 export default service;
+
+// <Carousel variant="dark">
+// 	<Carousel.Item>
+// 		<section id="testimonials" class="services-area services-eight">
+// 			{/* <!--======  Start Section Title Five ======--> */}
+// 			<div class="section-title-five">{/* <!-- container --> */}</div>
+// 			{/* <!--======  End Section Title Five ======--> */}
+// 			<div class="container">
+// 				<div class="row">
+// 					<div class="mx-auto col-lg-8 col-md-6">
+// 						<div class="single-services">
+// 							<div class="service-content">
+// 								<h1
+// 									style={{
+// 										color: "#2D96D3",
+// 										fontSize: "3.5rem",
+// 										fontWeight: "900",
+// 									}}>
+// 									〃
+// 								</h1>
+// 								<p>
+// 									Lorem ipsum dolor sit amet, adipscing elitr, sed diam
+// 									nonumy eirmod tempor ividunt labor dolore magna.
+// 								</p>
+// 							</div>
+
+// 							<div class="service-icon">
+// 								{/* <i class="lni lni-capsule"></i> */}
+// 								<img src={Ellipse} alt="testimonial" height={"75px"} />
+// 								<h6>Albert Flores</h6>
+// 								<div className="Paragrap">
+// 									<p>Head Of Finance</p>
+// 								</div>
+// 							</div>
+// 							<div></div>
+// 						</div>
+// 					</div>
+// 				</div>
+// 			</div>
+// 		</section>
+// 	</Carousel.Item>
+// 	<Carousel.Item>
+// 		<section id="testimonials" class="services-area services-eight">
+// 			{/* <!--======  Start Section Title Five ======--> */}
+// 			<div class="section-title-five">{/* <!-- container --> */}</div>
+// 			{/* <!--======  End Section Title Five ======--> */}
+// 			<div class="container">
+// 				<div class="row">
+// 					<div class="mx-auto col-lg-8 col-md-6">
+// 						<div class="single-services">
+// 							<div class="service-content">
+// 								<h1
+// 									style={{
+// 										color: "#2D96D3",
+// 										fontSize: "3.5rem",
+// 										fontWeight: "900",
+// 									}}>
+// 									〃
+// 								</h1>
+// 								<p>
+// 									Lorem ipsum dolor sit amet, adipscing elitr, sed diam
+// 									nonumy eirmod tempor ividunt labor dolore magna.
+// 								</p>
+// 							</div>
+
+// 							<div class="service-icon">
+// 								{/* <i class="lni lni-capsule"></i> */}
+// 								<img src={Ellipse1} alt="testimonial" height={"75px"} />
+// 								<h6>Robert Fox</h6>
+// 								<div className="Paragrap">
+// 									<p>Head Of Finance</p>
+// 								</div>
+// 							</div>
+// 							<div></div>
+// 						</div>
+// 					</div>
+// 				</div>
+// 			</div>
+// 		</section>
+// 	</Carousel.Item>
+// 	<Carousel.Item>
+// 		<section id="testimonials" class="services-area services-eight">
+// 			{/* <!--======  Start Section Title Five ======--> */}
+// 			<div class="section-title-five">{/* <!-- container --> */}</div>
+// 			{/* <!--======  End Section Title Five ======--> */}
+// 			<div class="container">
+// 				<div class="row">
+// 					<div class="mx-auto col-lg-8 col-md-6">
+// 						<div class="single-services">
+// 							<div class="service-content">
+// 								<h1
+// 									style={{
+// 										color: "#2D96D3",
+// 										fontSize: "3.5rem",
+// 										fontWeight: "900",
+// 									}}>
+// 									〃
+// 								</h1>
+// 								<p>
+// 									Lorem ipsum dolor sit amet, adipscing elitr, sed diam
+// 									nonumy eirmod tempor ividunt labor dolore magna.
+// 								</p>
+// 							</div>
+
+// 							<div class="service-icon">
+// 								{/* <i class="lni lni-capsule"></i> */}
+// 								<img src={Ellipse2} alt="testimonial" height={"75px"} />
+// 								<h6>Theresa Webb</h6>
+// 								<div className="Paragrap">
+// 									<p>Head Of Finance</p>
+// 								</div>
+// 							</div>
+// 							<div></div>
+// 						</div>
+// 					</div>
+// 				</div>
+// 			</div>
+// 		</section>
+// 	</Carousel.Item>
+// </Carousel>

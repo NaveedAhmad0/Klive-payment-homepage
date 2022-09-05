@@ -40,7 +40,7 @@ const footer = () => {
 								<div class="col-lg-5 col-md-6 col-12">
 									{/* <!-- Single Widget --> */}
 									<div class="footer-widget pb-5 f-link">
-										<div className="d-flex justify-content-around">
+										<div className="col-lg-5 mx-auto d-flex justify-content-around">
 											<img src={fb} alt="fb" />
 											<img src={twt} alt="twt" />
 											<img src={ggle} alt="insta" />
