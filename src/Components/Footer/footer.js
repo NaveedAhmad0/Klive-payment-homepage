@@ -1,5 +1,11 @@
 import React from "react";
 import LOGO from "../../img/LOGO.png";
+import fb from "../../assets/Group 90.png";
+import twt from "../../assets/Group 91.png";
+import ggle from "../../assets/Group 92.png";
+import contctIcon from "../../assets/Group 75.png";
+import contctIcon1 from "../../assets/Group 78.png";
+import contctIcon2 from "../../assets/Group 77.png";
 
 const footer = () => {
 	return (
@@ -10,8 +16,8 @@ const footer = () => {
 				<div class="footer-top">
 					<div class="container">
 						<div class="inner-content">
-							<div class="row">
-								<div class="col-lg-4 col-md-6 col-12">
+							<div class="row jusitfy-content-between">
+								<div class="col-lg-3 col-md-6 col-12">
 									{/* <!-- Single Widget --> */}
 									<div class="footer-widget f-about">
 										<div class="logo">
@@ -31,67 +37,58 @@ const footer = () => {
 									</div>
 									{/* <!-- End Single Widget --> */}
 								</div>
-								<div class="col-lg-2 col-md-6 col-12">
+								<div class="col-lg-5 col-md-6 col-12">
 									{/* <!-- Single Widget --> */}
-									<div class="footer-widget f-link">
-										<h5>Solutions</h5>
-										<ul>
-											<li>
-												<a href="javascript:void(0)">Marketing</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Analytics</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Commerce</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Insights</a>
-											</li>
-										</ul>
+									<div class="footer-widget pb-5 f-link">
+										<div className="d-flex justify-content-around">
+											<img src={fb} alt="fb" />
+											<img src={twt} alt="twt" />
+											<img src={ggle} alt="insta" />
+										</div>
+									</div>
+
+									<div class="footer-widget belowLine f-link">
+										<div className="d-flex justify-content-between">
+											<p>
+												<a href="home">Home</a>
+											</p>
+											<p>
+												<a href="home">What we do</a>
+											</p>
+											<p>
+												<a href="home">About</a>
+											</p>
+											<p>
+												<a href="home">Service</a>
+											</p>
+											<p>
+												<a href="home">Pricing</a>
+											</p>
+										</div>
 									</div>
 								</div>
-								<div class="col-lg-2 col-md-6 col-12">
-									{/* <!-- Single Widget --> */}
-									<div class="footer-widget f-link">
-										<h5>Support</h5>
-										<ul>
-											<li>
-												<a href="javascript:void(0)">Pricing</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Documentation</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Guides</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">API Status</a>
-											</li>
-										</ul>
-									</div>
-								</div>
+
 								<div class="col-lg-4 col-md-6 col-12">
 									<div class="footer-widget newsletter">
-										<h5>Subscribe</h5>
-										<p>Subscribe to our newsletter for the latest updates</p>
-										<form
-											action="#"
-											method="get"
-											target="_blank"
-											class="newsletter-form">
-											<input
-												name="EMAIL"
-												placeholder="Email address"
-												required="required"
-												type="email"
-											/>
-											<div class="button">
-												<button class="sub-btn">
-													<i class="lni lni-envelope"></i>
-												</button>
-											</div>
-										</form>
+										<h3>Contact Info :</h3>
+										<div className="d-flex mt-4 mb-3">
+											<img src={contctIcon} alt="some" />
+											<a className="ms-1" href="some">
+												(704) 555-0127
+											</a>
+										</div>
+										<div className="d-flex mb-3">
+											<img src={contctIcon1} alt="some" />
+											<a className="ms-1" href="some">
+												abc123@example.com
+											</a>
+										</div>
+										<div className="d-flex mb-3">
+											<img src={contctIcon2} alt="some" />
+											<a className="ms-1" href="some">
+												http://www.1-2-pay.com
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>

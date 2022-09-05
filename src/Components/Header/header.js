@@ -50,25 +50,31 @@ const header = () => {
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-12 col-12">
-							<div class="header-image">
+							<div class="header-image firstHeader">
 								<img src={banner} alt="banner" />
 							</div>
 						</div>
 					</div>
 					{/* <br></br> */}
-					<div className="container-fluid py-5 d-flex justify-content-around mt-5">
-						<div id="header-point" className="d-flex justify-content-between">
-							<h4 className="fw-bold ">2300+ </h4>
-							<span className="ms-3">user Active</span>
+					<div className="container-fluid py-5 numberOfUsers  mt-5">
+						<div
+							id="header-point"
+							className="d-flex numberOfUsers1st justify-content-between">
+							<h2 className="fw-bold ">2300+ </h2>
+							<span className="ms-4 mt-2">user Active</span>
 						</div>
-						<div id="header-point" className="d-flex justify-content-around">
+						<div
+							id="header-point"
+							className="d-flex numberOfUsers1st justify-content-around">
 							{" "}
-							<h4 className="fw-bold ">150+ </h4>
-							<span className="ms-3">Trusted By Company</span>
+							<h2 className="fw-bold ">150+ </h2>
+							<span className="ms-4 mt-2">Trusted By Company</span>
 						</div>
-						<div id="header-point" className="d-flex justify-content-around">
-							<h4 className="fw-bold ">$280M+ </h4>
-							<span className="ms-3">Transaction</span>
+						<div
+							id="header-point"
+							className="d-flex numberOfUsers1st justify-content-around">
+							<h2 className="fw-bold ">$280M+ </h2>
+							<span className="ms-4 mt-2">Transaction</span>
 						</div>
 					</div>
 				</div>

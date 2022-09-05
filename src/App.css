@@ -13,6 +13,7 @@ html,body
     font-family: 'Poppins' !important;
     background-color: #F1E8F5 !important;
 }
+
 /* html,body{
   background-color: #F1E8F5 !important;
 } */
@@ -173,6 +174,11 @@ textarea:focus,
 button:focus {
   text-decoration: none;
   outline: none;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
 }
 
 ul,
@@ -477,7 +483,9 @@ p {
 .navbar-toggler:focus {
   box-shadow: none;
 }
-
+.nav-links:hover{
+  border-bottom:2px solid #00d4d7 !important;
+}
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -1005,10 +1013,26 @@ p {
   /* padding:25px 0 100px 0; */
   background-color: #F1E8F5;
   text-decoration: none !important;
+
+
+}
+
+.numberOfUsers{
+  display: flex !important;
+  justify-content: space-between;
 }
 .header-eight a {
   
   text-decoration: none !important;
+}
+@media (max-width: 361px) {
+  .numberOfUsers{
+    flex-direction: column;
+    text-align: center !important;
+  }
+  .numberOfUsers1st{
+    margin-top: 20px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-eight {
@@ -1021,12 +1045,14 @@ p {
   }
 }
 .header-eight .header-image img {
-  width: 980px !important;
+  width: 780px !important;
   border-radius: 8px;
+  
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .header-eight .header-image {
-    margin-top: 40px;
+    margin-top: 10px;
   }
   .header-imagecontent{
     margin-top: 42px;
@@ -1098,6 +1124,7 @@ p {
   background: var(--white);
   color: var(--primary);
 }
+
 
 /*===========================
   about-05 css
@@ -1336,6 +1363,20 @@ p {
   color: var(--dark-3);
 }
 
+.channeloffered1{
+  margin-top: -290px !important;
+}
+
+@media (max-width: 1366px) {
+  .channeloffered1{
+    margin-top: -91px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .channeloffered1{
+    margin-top: 1px !important;
+  }
+}
 
 
 /*===== VIDEO ONE =====*/
@@ -1876,6 +1917,10 @@ p {
 
 
 /* Footer eleven css */
+.belowLine{
+  padding-top: 40px;
+  border-top: 1px solid gray;
+}
 .footer-eleven {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -1910,7 +1955,7 @@ p {
   }
 }
 .footer-eleven .f-about {
-  padding-right: 30px;
+  padding-right: 0px;
 }
 @media (max-width: 767px) {
   .footer-eleven .f-about {

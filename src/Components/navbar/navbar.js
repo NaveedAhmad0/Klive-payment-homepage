@@ -21,12 +21,18 @@ const navbar = () => {
 									<Navbar.Toggle aria-controls="basic-navbar-nav" />
 									<Navbar.Collapse id="basic-navbar-nav">
 										<Nav className="me-auto" style={{ marginLeft: "13rem" }}>
-											<Nav.Link href="#whatwedo">What We Do</Nav.Link>
-											<Nav.Link href="#ourservices">Our Services</Nav.Link>
-											<Nav.Link href="#channeloffered">
+											<Nav.Link className="nav-links" href="#whatwedo">
+												What We Do
+											</Nav.Link>
+											<Nav.Link className="nav-links" href="#ourservices">
+												Our Services
+											</Nav.Link>
+											<Nav.Link className="nav-links" href="#channeloffered">
 												Channel Offered
 											</Nav.Link>
-											<Nav.Link href="#testimonials">Testimonials</Nav.Link>
+											<Nav.Link className="nav-links" href="#testimonials">
+												Testimonials
+											</Nav.Link>
 										</Nav>
 										<div class="navbar-btn d-none d-lg-inline-block">
 											<button class="button-17">Register</button>
