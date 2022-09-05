@@ -484,7 +484,7 @@ p {
   box-shadow: none;
 }
 .nav-links:hover{
-  border-bottom:2px solid #00d4d7 !important;
+  border-bottom: 2px solid #2D96D3 !important;
 }
 .mb-100 {
   margin-bottom: 100px;
@@ -1055,7 +1055,7 @@ p {
     margin-top: 10px;
   }
   .header-imagecontent{
-    margin-top: 42px;
+    /* margin-top: 42px; */
     margin-left: -8rem;
 }
 }
@@ -1279,9 +1279,9 @@ p {
 /*===========================
   services css 
 ===========================*/
-.services-eight {
+/* .services-eight {
   padding: 100px 0;
-}
+} */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-eight {
     padding: 80px 0 50px 0;
@@ -1367,9 +1367,9 @@ p {
   margin-top: -290px !important;
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
   .channeloffered1{
-    margin-top: -91px !important;
+    margin-top: -191px !important;
   }
 }
 @media (max-width: 1200px) {
@@ -2064,8 +2064,24 @@ p {
 
 }
 
+@media (max-width:400px) {
+  .service-header-image {
+    margin-top: -190px !important;
+    margin-bottom: -90px !important;
+    width: 400px !important;
+  
+  }
+}
 
 .channel-header-image {
 
   width: 120% !important;
+}
+
+@media (max-width:400px) {
+  .channel-header-image {
+
+    width: 450px !important;
+    margin-bottom: -190px;
+  }
 }

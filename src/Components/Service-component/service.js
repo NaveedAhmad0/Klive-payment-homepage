@@ -129,28 +129,28 @@ import Carousel from "react-bootstrap/Carousel";
 function service() {
 	return (
 		<>
-			<Carousel variant="dark">
-				<section id="testimonials" class="services-area services-eight">
-					{/* <!--======  Start Section Title Five ======--> */}
-					<div class="section-title-five">
-						<div class="container">
-							<div class="row">
-								<div class="col-12">
-									<div class="content">
-										{/* <h6>Services</h6> */}
-										<h2 class="fw-bold">What Our Happy Customer Say </h2>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											Purus, proin lacus, viverra lobortis ipsum vivamus 〃
-										</p>
-									</div>
+			<section id="testimonials" class="services-area services-eight">
+				{/* <!--======  Start Section Title Five ======--> */}
+				<div class="section-title-five">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="content">
+									{/* <h6>Services</h6> */}
+									<h2 class="fw-bold">What Our Happy Customer Say </h2>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Purus, proin lacus, viverra lobortis ipsum vivamus 〃
+									</p>
 								</div>
 							</div>
-							{/* <!-- row --> */}
 						</div>
-						{/* <!-- container --> */}
+						{/* <!-- row --> */}
 					</div>
-				</section>
+					{/* <!-- container --> */}
+				</div>
+			</section>
+			<Carousel variant="dark">
 				<Carousel.Item>
 					<section id="testimonials" class="services-area services-eight">
 						{/* <!--======  Start Section Title Five ======--> */}
