@@ -1,10 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faBank,
-	faMoneyBill,
-	faQrcode,
-} from "@fortawesome/free-solid-svg-icons";
+import { faQrcode, faUsd,faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import channel from "../../assets/channel.svg";
 
 const channels = () => {
@@ -26,7 +22,7 @@ const channels = () => {
 								</p>
 							</div>
 							<br></br>
-							<div className="card">
+							<div className="cardservices">
 								<div class="card-body header-content d-flex">
 									<div style={{ padding: "1rem" }}>
 										<FontAwesomeIcon
@@ -51,11 +47,11 @@ const channels = () => {
 								</div>
 							</div>
 							<br></br>
-							<div className="card">
+							<div className="cardservices">
 								<div class="card-body header-content d-flex">
 									<div style={{ padding: "1rem" }}>
 										<FontAwesomeIcon
-											icon={faBank}
+											icon={faUsd}
 											style={{
 												backgroundColor: "dodgerblue",
 												color: "white",
@@ -75,11 +71,11 @@ const channels = () => {
 								</div>
 							</div>
 							<br></br>
-							<div className="card">
+							<div className="cardservices">
 								<div class="card-body header-content d-flex">
 									<div style={{ padding: "1rem" }}>
 										<FontAwesomeIcon
-											icon={faMoneyBill}
+											icon={faArrowRightArrowLeft}
 											style={{
 												backgroundColor: "dodgerblue",
 												color: "white",

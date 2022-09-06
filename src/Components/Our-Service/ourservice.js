@@ -1,10 +1,8 @@
 import React from "react";
-
-import icon1 from "../../assets/Icon Wallet.png";
-import icon2 from "../../assets/Icon Money.png";
-import icon3 from "../../assets/Icon Transfer.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQrcode, faUsd,faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import services from "../../assets/services.svg";
-import "../../App.css";
+
 const ourservice = () => {
 	return (
 		<div>
@@ -27,11 +25,19 @@ const ourservice = () => {
 								</p>
 							</div>
 							<br></br>
-							<div className="card">
-								<div class="card-body ourservicesCard d-flex ">
-									<div style={{ marginTop: "2rem", padding: "0.5rem" }}>
+							<div className=" cardservices">
+								<div class="card-body d-flex ">
+									<div style={{ marginTop: "2rem", padding: "1rem" }}>
 										{" "}
-										<img src={icon2} alt="icon" width={120} height={50} />
+										<FontAwesomeIcon
+											icon={faQrcode}
+											style={{
+												backgroundColor: "dodgerblue",
+												color: "white",
+												padding: "0.7rem",
+												borderRadius: "5px",
+											}}
+										/>
 									</div>
 									<div>
 										<h5 className="text-black">Payment Solutions</h5>
@@ -44,11 +50,19 @@ const ourservice = () => {
 								</div>
 							</div>
 							<br></br>
-							<div className="card">
-								<div class="card-body ourservicesCard d-flex ">
+							<div className="cardservices">
+								<div class="card-body d-flex ">
 									<div style={{ marginTop: "2rem", padding: "1rem" }}>
 										{" "}
-										<img src={icon3} alt="icon" width={100} height={50} />
+										<FontAwesomeIcon
+											icon={faUsd}
+											style={{
+												backgroundColor: "dodgerblue",
+												color: "white",
+												padding: "0.7rem",
+												borderRadius: "5px",
+											}}
+										/>
 									</div>
 									<div>
 										<h5 className="text-black">Money Management</h5>
@@ -60,11 +74,19 @@ const ourservice = () => {
 								</div>
 							</div>
 							<br></br>
-							<div className="card">
-								<div class="card-body ourservicesCard d-flex ">
+							<div className="cardservices">
+								<div class="card-body d-flex ">
 									<div style={{ marginTop: "1rem", padding: "1rem" }}>
 										{" "}
-										<img src={icon1} alt="icon" width={100} height={50} />
+										<FontAwesomeIcon
+											icon={faArrowRightArrowLeft}
+											style={{
+												backgroundColor: "dodgerblue",
+												color: "white",
+												padding: "0.7rem",
+												borderRadius: "5px",
+											}}
+										/>
 									</div>
 									<div>
 										<h5 className="text-black">Online Business Strategy</h5>

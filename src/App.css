@@ -1276,7 +1276,6 @@ p {
 }
 
 
-
 /*===========================
   services css 
 ===========================*/
@@ -1367,28 +1366,10 @@ p {
 .channeloffered1{
   margin-top: -290px !important;
 }
-.service-icon h6{
-  position: absolute;
-  left: 90px;
-  margin-top: -25px;
-  white-space: nowrap;
-}
-.Paragrap{
-  font-size: medium;
-  position: absolute;
-  left: 90px;
-  margin-top: 30px;
-  white-space: nowrap;
-}
 
-@media (min-width: 1466px) {
-  .channeloffered1{
-    margin-top: -201px !important;
-  }
-}
 @media (min-width: 1366px) {
   .channeloffered1{
-    margin-top: -161px !important;
+    margin-top: -191px !important;
   }
 }
 @media (max-width: 1200px) {
@@ -1396,17 +1377,8 @@ p {
     margin-top: 1px !important;
   }
 }
-@media (max-width: 412px) {
-  .content{
-    text-align: center !important;
-  }
-}
 
-.ourservicesCard{
-  border: 4px solid #FFFFFF !important;
-  border-radius: 19px !important;
-  background: rgba(255, 255, 255, 0.5) !important;
-}
+
 /*===== VIDEO ONE =====*/
 .video-one {
   background-color: var(--light-3);
@@ -1498,14 +1470,49 @@ p {
   }
 }
 .pricing-style-fourteen {
-  border: 4px solid #FFFFFF !important;
-  border-radius: 19px !important;
-  background: rgba(255, 255, 255, 0.5);
+  /* border: 1px solid var(--light-1); */
+  border-radius: 10px;
   margin-top: 30px;
+  /* background-color: var(--white); */
   transition: all 0.4s ease;
-  padding: 50px 35px;
+  padding: 30px 40px;
   text-align: left;
   z-index: 0;
+  box-sizing: border-box;
+  margin-left: 30px;
+  width: 364px;
+height: 290px;
+  /* right: 50px; */
+
+/* position: absolute; */
+/* width: 405px;
+height: 319px;
+left: 442px;
+top: 0px; */
+
+background: rgba(255, 255, 255, 0.5);
+border: 4px solid #FFFFFF;
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+/* //bgimg */
+.bgimg{
+  background:url("./assets//Group\ 1000006452.png");
+}
+.cardservices{
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: all 0.4s ease;
+  padding: 15px 15px;
+  text-align: left;
+  z-index: 0;
+  box-sizing: border-box;
+background: rgba(255, 255, 255, 0.5);
+border: 4px solid #FFFFFF;
+backdrop-filter: blur(10px) !important;
+border-radius: 20px;
 }
 .pricing-style-fourteen:hover {
   box-shadow: var(--shadow-4);
