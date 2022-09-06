@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQrcode, faUsd,faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import {
+	faQrcode,
+	faUsd,
+	faArrowRightArrowLeft,
+} from "@fortawesome/free-solid-svg-icons";
 import channel from "../../assets/channel.svg";
 
 const channels = () => {
@@ -9,12 +13,12 @@ const channels = () => {
 			{/* <!-- Start header Area --> */}
 			<section
 				id="channeloffered"
-				class="header-area channeloffered1 header-eight">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6 col-md-12 col-12">
+				className="header-area channeloffered1 header-eight">
+				<div className="container">
+					<div className="row align-items-center">
+						<div className="col-lg-6 col-md-12 col-12">
 							<div>
-								<h2 class="header-content ">Channels Offered</h2>
+								<h2 className="header-content ">Channels Offered</h2>
 								<p>
 									The fastest, easiest and most secure payment method today is
 									QR Code payment. KlivePay will allow usage of QR Code payments
@@ -23,7 +27,7 @@ const channels = () => {
 							</div>
 							<br></br>
 							<div className="cardservices">
-								<div class="card-body header-content d-flex">
+								<div className="card-body header-content d-flex">
 									<div style={{ padding: "1rem" }}>
 										<FontAwesomeIcon
 											icon={faQrcode}
@@ -48,7 +52,7 @@ const channels = () => {
 							</div>
 							<br></br>
 							<div className="cardservices">
-								<div class="card-body header-content d-flex">
+								<div className="card-body header-content d-flex">
 									<div style={{ padding: "1rem" }}>
 										<FontAwesomeIcon
 											icon={faUsd}
@@ -72,7 +76,7 @@ const channels = () => {
 							</div>
 							<br></br>
 							<div className="cardservices">
-								<div class="card-body header-content d-flex">
+								<div className="card-body header-content d-flex">
 									<div style={{ padding: "1rem" }}>
 										<FontAwesomeIcon
 											icon={faArrowRightArrowLeft}
@@ -96,8 +100,8 @@ const channels = () => {
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-12 col-12">
-							<div class="header-image channel-header-image header-imagecontent">
+						<div className="col-lg-6 col-md-12 col-12">
+							<div className="header-image channel-header-image header-imagecontent">
 								<img src={channel} alt="channel" />
 							</div>
 						</div>

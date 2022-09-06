@@ -18,6 +18,7 @@ const Home = () => {
 			<Header />
 			<Price />
 			<Ourservice />
+			<br />
 			<Channels />
 			<Service />
 			<Footer />

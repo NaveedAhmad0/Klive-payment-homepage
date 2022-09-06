@@ -189,8 +189,8 @@ function service() {
 										<div class="service-icon">
 											{/* <i class="lni lni-capsule"></i> */}
 											<img src={Ellipse2} alt="testimonial" height={"75px"} />
-											<h6>Theresa Webb</h6>
 											<div className="Paragrap">
+												<h6>Theresa Webb</h6>
 												<p>Head Of Finance</p>
 											</div>
 										</div>
@@ -228,8 +228,8 @@ function service() {
 										<div class="service-icon">
 											{/* <i class="lni lni-capsule"></i> */}
 											<img src={Ellipse} alt="testimonial" height={"75px"} />
-											<h6>Albert Flores</h6>
 											<div className="Paragrap">
+												<h6>Albert Flores</h6>
 												<p>Head Of Finance</p>
 											</div>
 										</div>
@@ -267,8 +267,8 @@ function service() {
 										<div class="service-icon">
 											{/* <i class="lni lni-capsule"></i> */}
 											<img src={Ellipse1} alt="testimonial" height={"75px"} />
-											<h6>Robert Fox</h6>
 											<div className="Paragrap">
+												<h6>Robert Fox</h6>
 												<p>Head Of Finance</p>
 											</div>
 										</div>
@@ -303,11 +303,12 @@ function service() {
 											</p>
 										</div>
 
-										<div class="service-icon">
+										<div class="service-icon justify-content-between">
 											{/* <i class="lni lni-capsule"></i> */}
 											<img src={Ellipse2} alt="testimonial" />
-											<h6>Theresa Webb</h6>
+											<br />
 											<div className="Paragrap">
+												<h6>Theresa Webb</h6>
 												<p>Head Of Finance</p>
 											</div>
 										</div>

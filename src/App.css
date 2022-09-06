@@ -1013,6 +1013,7 @@ p {
   /* padding:25px 0 100px 0; */
   background-color: #F1E8F5;
   text-decoration: none !important;
+  margin-bottom: 20px;
 
 
 }
@@ -1307,35 +1308,34 @@ p {
 .services-eight .single-services:hover {
   box-shadow: var(--shadow-4);
 }
-.services-eight .single-services:hover .service-icon {
+/* .services-eight .single-services:hover .service-icon {
   color: var(--white);
-  border-color: transparent !important;
-  background: var(--primary);
-}
+  border-color: transparent !important; */
+  /* background: var(--primary); */
+/* }
 .services-eight .single-services:hover .service-icon::after {
   opacity: 1;
   visibility: visible;
-}
-.services-eight .single-services .service-icon {
-  width: 78px;
+} */
+/* .services-eight .single-services .service-icon {
+  width: 188px;
   height: 78px;
   border-radius: 50%;
-  margin-bottom: 25px;
-  background: var(--white);
-  /* border: 2px solid var(--primary); */
-  display: flex;
+  margin-bottom: 25px; */
+  /* background: var(--white); */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  color: var(--primary);
-  font-size: 40px;
-  -webkit-transition: all 0.3s ease-out 0s;
+  justify-content: center; */
+  /* color: var(--primary); */
+  /* font-size: 40px; */
+  /* -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-  position: relative;
-}
-.services-eight .single-services .service-icon::after {
+  transition: all 0.3s ease-out 0s; */
+  /* position: relative; */
+/* } */
+/* .services-eight .single-services .service-icon::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -1343,17 +1343,20 @@ p {
   left: 0;
   position: absolute;
   opacity: 0;
-  visibility: hidden;
-  background: var(--primary);
-  -webkit-transition: all 0.3s ease-out 0s;
+  visibility: hidden; */
+  /* background: var(--primary); */
+  /* -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   z-index: -1;
-  border-radius: 50%;
+  border-radius: 50%; */
   /* border: 1px solid transparent; */
-}
+/* } */
+
+
+
 .services-eight .single-services .service-content h4 {
   font-size: 20px;
   font-weight: 600;

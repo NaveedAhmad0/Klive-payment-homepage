@@ -7,7 +7,14 @@
 .service-icon img{
   height: 75px;
 }
-
+.Paragrap h6{
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 200px !important;
+}
+.Paragrap p{
+  margin-left: 30px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-eight {
     padding: 80px 0 50px 0;
@@ -26,6 +33,13 @@
 
   .service-icon img{
     height: 65px;
+  }
+  .Paragrap h6{
+    margin-left: 10px;
+    width: 200px !important;
+  }
+  .Paragrap p{
+    margin-left: 10px;
   }
   .service-icon h6{
     font-size: 13px !important;
@@ -107,35 +121,39 @@
   box-shadow: var(--shadow-4);
 
 }
+.Paragrap{
+  width: 300px !important;
+}
 .services-eight .single-services:hover .service-icon {
   color: var(--white);
-  border-color: transparent;
-  background: var(--primary);
+  /* border-color: transparent; */
+  /* background: var(--primary); */
 }
 .services-eight .single-services:hover .service-icon::after {
   opacity: 1;
   visibility: visible;
 }
 .services-eight .single-services .service-icon {
-  width: 78px;
+  width: 300px;
   height: 78px;
   border-radius: 50%;
   margin-bottom: 25px;
-  background: var(--white);
-  border: 2px solid var(--primary);
+  /* background: var(--white); */
+  /* border: 2px solid var(--primary); */
   display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary);
-  font-size: 40px;
+
+  /* align-items: center; */
+  justify-content: space-between !important;
+  /* color: var(--primary); */
+  font-size: 16px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  position: relative;
+  /* position: relative; */
 }
-
+/* 
 .services-eight .single-services .service-icon::after {
   content: "";
   width: 100%;
@@ -154,7 +172,7 @@
   z-index: -1;
   border-radius: 50%;
   border: 1px solid transparent;
-}
+} */
 .services-eight .single-services .service-content h4 {
   font-size: 20px;
   font-weight: 600;
