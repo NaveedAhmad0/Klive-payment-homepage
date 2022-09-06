@@ -7,6 +7,16 @@
 .service-icon img{
   height: 75px;
 }
+.rec.rec-arrow-left,
+.rec.rec-arrow-right{
+    background-color: white;
+    /* box-shadow: 0 0 1px 3px var(--clr-primary-400); */
+}
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled{
+    background-color: #2D96D3;
+    /* box-shadow: 0 0 1px 3px var(--clr-primary-400); */
+}
 .Paragrap h6{
   margin-top: 10px;
   margin-left: 30px;
