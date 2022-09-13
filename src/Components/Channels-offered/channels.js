@@ -43,9 +43,9 @@ const channels = () => {
 									<div>
 										<h5 className="text-black">QR Code</h5>
 										<p className="text-black" style={{ margin: "0px" }}>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											Tellus facilisi orci scelerisque cursus placerat
-											adipiscing cursus.
+											The fastest, easiest and most secure payment method today
+											is QR Code payment. KlivePay will allow usage of QR Code
+											payments and more will be added eventually.
 										</p>
 									</div>
 								</div>

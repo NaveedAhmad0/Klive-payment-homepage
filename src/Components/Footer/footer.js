@@ -42,7 +42,7 @@ const footer = () => {
 									</div>
 									{/* <!-- End Single Widget --> */}
 								</div>
-								<div class="col-lg-5 col-md-6 col-12">
+								<div class="col-lg-6 col-md-6 col-12">
 									{/* <!-- Single Widget --> */}
 									<div class="footer-widget pb-5 f-link">
 										<div className="col-lg-5 mx-auto d-flex justify-content-around">
@@ -73,10 +73,10 @@ const footer = () => {
 									</div>
 								</div>
 
-								<div class="col-lg-4 col-md-6 col-12">
-									<div class="footer-widget newsletter">
-										<h3>Contact Info :</h3>
-										{/* <div className="d-flex mt-4 mb-3">
+								{/* <div class="col-lg-4 col-md-6 col-12"> */}
+								{/* <div class="footer-widget newsletter"> */}
+								{/* <h3>Contact Info :</h3> */}
+								{/* <div className="d-flex mt-4 mb-3">
 											<img src={contctIcon} alt="some" />
 											<a className="ms-1" href="some">
 												(704) 555-0127
@@ -94,8 +94,8 @@ const footer = () => {
 												http://www.1-2-pay.com
 											</a>
 										</div> */}
-									</div>
-								</div>
+								{/* </div> */}
+								{/* </div> */}
 							</div>
 						</div>
 					</div>
