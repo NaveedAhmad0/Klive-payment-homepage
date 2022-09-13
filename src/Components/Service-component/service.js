@@ -148,10 +148,10 @@ function service() {
 							<div class="col-12">
 								<div class="content">
 									{/* <h6>Services</h6> */}
-									<h2 class="fw-bold">What Our Happy Customer Say </h2>
+									<h2 class="fw-bold">What Our Happy Customers Say</h2>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-										Purus, proin lacus, viverra lobortis ipsum vivamus 〃
+										Are you ready to be a part of KlivePay yet? See what others
+										have to say!
 									</p>
 								</div>
 							</div>
@@ -172,17 +172,11 @@ function service() {
 								<div class="mx-auto col-lg-12 col-md-6">
 									<div class="single-services">
 										<div class="service-content">
-											<h1
-												style={{
-													color: "#2D96D3",
-													fontSize: "3.5rem",
-													fontWeight: "900",
-												}}>
-												〃
-											</h1>
 											<p>
-												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
-												nonumy eirmod tempor ividunt labor dolore magna.
+												I have never used something so easy and
+												efficient.KlivePay has become my number one choice for
+												receiving payments and that is such an easy decision to
+												make!
 											</p>
 										</div>
 
@@ -211,17 +205,11 @@ function service() {
 								<div class="mx-auto col-lg-12 col-md-6">
 									<div class="single-services">
 										<div class="service-content">
-											<h1
-												style={{
-													color: "#2D96D3",
-													fontSize: "3.5rem",
-													fontWeight: "900",
-												}}>
-												〃
-											</h1>
 											<p>
-												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
-												nonumy eirmod tempor ividunt labor dolore magna.
+												I have never used something so easy and
+												efficient.KlivePay has become my number one choice for
+												receiving payments and that is such an easy decision to
+												make!
 											</p>
 										</div>
 
@@ -250,17 +238,11 @@ function service() {
 								<div class="mx-auto col-lg-12 col-md-6">
 									<div class="single-services">
 										<div class="service-content">
-											<h1
-												style={{
-													color: "#2D96D3",
-													fontSize: "3.5rem",
-													fontWeight: "900",
-												}}>
-												〃
-											</h1>
 											<p>
-												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
-												nonumy eirmod tempor ividunt labor dolore magna.
+												I have never used something so easy and
+												efficient.KlivePay has become my number one choice for
+												receiving payments and that is such an easy decision to
+												make!
 											</p>
 										</div>
 
@@ -268,8 +250,8 @@ function service() {
 											{/* <i class="lni lni-capsule"></i> */}
 											<img src={Ellipse1} alt="testimonial" height={"75px"} />
 											<div className="Paragrap">
-												<h6>Robert Fox</h6>
-												<p>Head Of Finance</p>
+												<h6>Charlie Kim</h6>
+												<p>Finance Manager</p>
 											</div>
 										</div>
 										<div></div>
@@ -289,17 +271,11 @@ function service() {
 								<div class="mx-auto col-lg-12 col-md-6">
 									<div class="single-services">
 										<div class="service-content">
-											<h1
-												style={{
-													color: "#2D96D3",
-													fontSize: "3.5rem",
-													fontWeight: "900",
-												}}>
-												〃
-											</h1>
 											<p>
-												Lorem ipsum dolor sit amet, adipscing elitr, sed diam
-												nonumy eirmod tempor ividunt labor dolore magna.
+												I have never used something so easy and
+												efficient.KlivePay has become my number one choice for
+												receiving payments and that is such an easy decision to
+												make!
 											</p>
 										</div>
 

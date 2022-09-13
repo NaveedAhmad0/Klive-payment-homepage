@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import logo from "../../assets/Logo/K Live Pay.png";
 const navbar = () => {
 	return (
 		<div>
@@ -15,12 +15,15 @@ const navbar = () => {
 								<Container>
 									<Navbar.Brand
 										href="#home"
-										style={{ fontSize: "53px", fontWeight: "800" }}>
-										LOGO
+										style={{ fontSize: "23px", fontWeight: "800" }}>
+										<img src={logo} alt="logo" width={160} height={60} />
 									</Navbar.Brand>
 									<Navbar.Toggle aria-controls="basic-navbar-nav" />
 									<Navbar.Collapse id="basic-navbar-nav">
-										<Nav className="me-auto" style={{ marginLeft: "13rem" }}>
+										<Nav className="me-auto" style={{ marginLeft: "auto" }}>
+											<Nav.Link className="nav-links" href="#introduction">
+												Introduction
+											</Nav.Link>
 											<Nav.Link className="nav-links" href="#whatwedo">
 												What We Do
 											</Nav.Link>

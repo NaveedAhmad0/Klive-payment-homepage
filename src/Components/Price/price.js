@@ -1,7 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare, faGaugeHigh, faGaugeMed, faGaugeSimpleHigh, faQrcode, faTimeline,} from "@fortawesome/free-solid-svg-icons";
-import Bgimg from "../../assets/Group 1000006452.png"; 
+import {
+	faArrowUpRightFromSquare,
+	faGaugeHigh,
+	faGaugeMed,
+	faGaugeSimpleHigh,
+	faQrcode,
+	faTimeline,
+} from "@fortawesome/free-solid-svg-icons";
+import Bgimg from "../../assets/Group 1000006452.png";
 const price = () => {
 	return (
 		<div>
@@ -16,8 +23,13 @@ const price = () => {
 									{/* <h6>Pricing</h6> */}
 									<h1 class="fw-bold">What we Do</h1>
 									<p>
-										We are between you and your merchant. We help you to manage
-										payments.
+										KlivePay accepts multiple payment methods. KlivePay enables
+										users to boost your online presence and customer acquisition
+										by seamlessly and securely accepting multiple major payment
+										methods. Acting as a unified platform for all payments
+										across multiple platforms, KlivePay will boost your business
+										and experience by being a one-stop dashboard for managing,
+										accepting and making payments.
 									</p>
 								</div>
 							</div>
@@ -30,7 +42,7 @@ const price = () => {
 				<div class="container" className="bgimg">
 					<div class="row">
 						<div class="col-lg-4 col-md-6 col-12">
-							<div class="pricing-style-fourteen"  >
+							<div class="pricing-style-fourteen">
 								<FontAwesomeIcon
 									icon={faGaugeHigh}
 									style={{
@@ -38,12 +50,12 @@ const price = () => {
 										color: "white",
 										padding: "0.7rem",
 										borderRadius: "5px",
-										marginBottom: "0.7rem"
+										marginBottom: "0.7rem",
 									}}
 								/>
 								<div class="table-head">
 									<h3>Fast!</h3>
-									<p style={{fontSize:"16px"}}>
+									<p style={{ fontSize: "16px" }}>
 										Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
 										Enim conse ctetur urna vitae magnis ipsum dolor sit sit
 										amet.
@@ -60,12 +72,12 @@ const price = () => {
 										color: "white",
 										padding: "0.7rem",
 										borderRadius: "5px",
-										marginBottom: "0.7rem"
+										marginBottom: "0.7rem",
 									}}
 								/>
 								<div class="table-head">
 									<h3>Efficient flow!</h3>
-									<p style={{fontSize:"16px"}}>
+									<p style={{ fontSize: "16px" }}>
 										Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
 										Enim conse ctetur urna vitae magnis ipsum dolor sit sit
 										amet.
@@ -82,12 +94,12 @@ const price = () => {
 										color: "white",
 										padding: "0.7rem",
 										borderRadius: "5px",
-										marginBottom: "0.7rem"
+										marginBottom: "0.7rem",
 									}}
 								/>
 								<div class="table-head text-left">
 									<h3>Responsive!</h3>
-									<p style={{fontSize:"16px"}}>
+									<p style={{ fontSize: "16px" }}>
 										Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
 										Enim conse ctetur urna vitae magnis ipsum dolor sit sit
 										amet.

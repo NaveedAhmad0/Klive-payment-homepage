@@ -1,5 +1,5 @@
 import React from "react";
-import LOGO from "../../img/LOGO.png";
+import LOGO from "../../assets/K Live Pay.png";
 import fb from "../../assets/Group 90.png";
 import twt from "../../assets/Group 91.png";
 import ggle from "../../assets/Group 92.png";
@@ -23,14 +23,19 @@ const footer = () => {
 										<div class="logo">
 											<a href="index.html">
 												{/* <img src="assets/images/logo.svg" alt="#" class="img-fluid" /> */}
-												<img src={LOGO} alt="testimonial" />
+												<img
+													src={LOGO}
+													alt="testimonial"
+													width={180}
+													height={80}
+												/>
 											</a>
 										</div>
 
 										<p class="copyright-text">
 											<span>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting{" "}
+												KlivePay is the premier payment gateway allowing global
+												users make payments seamlessly.
 											</span>
 											<p>copyright 2022 </p>
 										</p>
@@ -50,7 +55,7 @@ const footer = () => {
 									<div class="footer-widget belowLine f-link">
 										<div className="d-flex justify-content-between">
 											<p>
-												<a href="home">Home</a>
+												<a href="home">Introduction</a>
 											</p>
 											<p>
 												<a href="home">What we do</a>
@@ -71,7 +76,7 @@ const footer = () => {
 								<div class="col-lg-4 col-md-6 col-12">
 									<div class="footer-widget newsletter">
 										<h3>Contact Info :</h3>
-										<div className="d-flex mt-4 mb-3">
+										{/* <div className="d-flex mt-4 mb-3">
 											<img src={contctIcon} alt="some" />
 											<a className="ms-1" href="some">
 												(704) 555-0127
@@ -88,7 +93,7 @@ const footer = () => {
 											<a className="ms-1" href="some">
 												http://www.1-2-pay.com
 											</a>
-										</div>
+										</div> */}
 									</div>
 								</div>
 							</div>

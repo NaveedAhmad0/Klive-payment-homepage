@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQrcode, faUsd,faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import {
+	faQrcode,
+	faUsd,
+	faArrowRightArrowLeft,
+} from "@fortawesome/free-solid-svg-icons";
 import services from "../../assets/services.svg";
 
 const ourservice = () => {
@@ -19,15 +23,18 @@ const ourservice = () => {
 							<div>
 								<h1 class="header-content ">What our services are</h1>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Purus, proin lacus, viverra lobortis ipsum vivamus. Eu netus
-									tortor, netus hac nulla ipsum mauris viverra.
+									Never have to worry about seamless transactions ever again.
+									With robust security coupled with easily accessible and usable
+									payment methods, KlivePay enables both users and businesses
+									the flexibility to enhance payment processes! With short
+									turnaround times and exceptionally well thought out systems in
+									place, you will never need to worry.
 								</p>
 							</div>
 							<br></br>
 							<div className=" cardservices">
 								<div class="card-body d-flex ">
-									<div style={{ marginTop: "2rem", padding: "1rem" }}>
+									<div style={{ marginTop: "1rem", padding: "1rem" }}>
 										{" "}
 										<FontAwesomeIcon
 											icon={faQrcode}
@@ -40,11 +47,11 @@ const ourservice = () => {
 										/>
 									</div>
 									<div>
-										<h5 className="text-black">Payment Solutions</h5>
+										<h5 className="text-black">Easy to use QR Codes</h5>
 										<p className="text-black">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											Sit non in quis pellentesque sed pellentesque cras
-											adipiscing turpis
+											Quick, easy and secure. Payments will never be the same
+											again. KlivePay’s seamless platform allows for payments to
+											be received within 1 business day.
 										</p>
 									</div>
 								</div>
@@ -65,10 +72,10 @@ const ourservice = () => {
 										/>
 									</div>
 									<div>
-										<h5 className="text-black">Money Management</h5>
+										<h5 className="text-black">Mobile and Desktop </h5>
 										<p className="text-black">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
-											ut felis felis quis mi ut sollicitudin sed pellentesque
+											No matter where you may be, KlivePay will always be at
+											your fingertips.
 										</p>
 									</div>
 								</div>
@@ -89,10 +96,10 @@ const ourservice = () => {
 										/>
 									</div>
 									<div>
-										<h5 className="text-black">Online Business Strategy</h5>
+										<h5 className="text-black">Fraud detection</h5>
 										<p className="text-black">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
-											ut felis felis quis mi ut sollicitudin sed pellentesque
+											KlivePay’s platform is geared towards ensuring security
+											and protection for all our users.
 										</p>
 									</div>
 								</div>

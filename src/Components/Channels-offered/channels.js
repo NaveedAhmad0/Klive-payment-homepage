@@ -65,11 +65,12 @@ const channels = () => {
 										/>
 									</div>
 									<div>
-										<h5 className="text-black">iBanking/mbanking</h5>
+										<h5 className="text-black">Payment Methods Accepted</h5>
 										<p className="text-black" style={{ margin: "0px" }}>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											Tellus facilisi orci scelerisque cursus placerat
-											adipiscing cursus.
+											KlivePay strives to continuously improve and value add to
+											users’ and businesses’ and their lives. We only provide
+											you tried, proven and payment method and adding as we grow
+											along.
 										</p>
 									</div>
 								</div>
