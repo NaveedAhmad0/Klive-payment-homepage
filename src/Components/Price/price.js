@@ -36,7 +36,7 @@ const price = () => {
 					{/* <!-- container --> */}
 				</div>
 				{/* <!--======  End Section Title Five ======--> */}
-				<div className="container bgimg">
+				<div className="container bgimg" id="container123">
 					<div class="row">
 						<div class="col-lg-4 col-md-6 col-12">
 							<div class="pricing-style-fourteen">

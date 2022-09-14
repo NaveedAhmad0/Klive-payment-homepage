@@ -53,7 +53,7 @@ const footer = () => {
 									</div>
 
 									<div class="footer-widget belowLine f-link">
-										<div className="d-flex justify-content-between">
+										<div id="footer123" className="d-flex justify-content-between">
 											<p>
 												<a href="#introduction">Introduction</a>
 											</p>

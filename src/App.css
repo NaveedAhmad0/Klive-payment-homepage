@@ -280,9 +280,11 @@ p {
 }
 
 @media (max-width: 767px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
+  #container123 {
+    margin-left: -1.8rem;
+  }
+  #footer123{
+    display: block !important;
   }
 }
 
@@ -823,7 +825,7 @@ p {
 }
 @media (max-width: 767px) {
   .navbar-area.navbar-nine .navbar .navbar-btn {
-    position: absolute;
+    /* position: absolute; */
     right: 60px;
     top: 7px;
   }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f5cac88.css",
-    "main.js": "/static/js/main.c86bbd2c.js",
+    "main.css": "/static/css/main.b5deb831.css",
+    "main.js": "/static/js/main.fb3be2c2.js",
     "static/media/services.svg": "/static/media/services.2c85934fabd3243ff8a89e865fd124b1.svg",
     "static/media/Frame.png": "/static/media/Frame.66bbd998e9bd0dcc4e61.png",
     "static/media/Group 1000006452.png": "/static/media/Group 1000006452.d3da68c9bf532cca1ee4.png",
@@ -9,11 +9,11 @@
     "static/media/channel.svg": "/static/media/channel.6b821e85bd5e3b516f4afb1b7660041d.svg",
     "static/media/K Live Pay.png": "/static/media/K Live Pay.5cf43e1d19aa74ac7316.png",
     "index.html": "/index.html",
-    "main.3f5cac88.css.map": "/static/css/main.3f5cac88.css.map",
-    "main.c86bbd2c.js.map": "/static/js/main.c86bbd2c.js.map"
+    "main.b5deb831.css.map": "/static/css/main.b5deb831.css.map",
+    "main.fb3be2c2.js.map": "/static/js/main.fb3be2c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f5cac88.css",
-    "static/js/main.c86bbd2c.js"
+    "static/css/main.b5deb831.css",
+    "static/js/main.fb3be2c2.js"
   ]
 }

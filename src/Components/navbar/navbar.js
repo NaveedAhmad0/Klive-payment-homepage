@@ -37,7 +37,7 @@ const navbar = () => {
 												Testimonials
 											</Nav.Link>
 										</Nav>
-										<div class="navbar-btn d-none d-lg-inline-block">
+										<div class="navbar-btn d-lg-inline-block">
 											<button class="button-17">Register</button>
 										</div>
 									</Navbar.Collapse>
