@@ -21,7 +21,7 @@ const ourservice = () => {
 						</div>
 						<div class="col-lg-6 col-md-12 col-12">
 							<div>
-								<h1 class="header-content ">What our services are</h1>
+								<h1 class="header-content ">Our Services</h1>
 								<p>
 									Never have to worry about seamless transactions ever again.
 									With robust security coupled with easily accessible and usable
@@ -59,7 +59,7 @@ const ourservice = () => {
 							<br></br>
 							<div className="cardservices">
 								<div class="card-body d-flex ">
-									<div style={{ marginTop: "2rem", padding: "1rem" }}>
+									<div style={{ marginTop: "1rem", padding: "1rem" }}>
 										{" "}
 										<FontAwesomeIcon
 											icon={faUsd}

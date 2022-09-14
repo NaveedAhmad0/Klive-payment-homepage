@@ -493,6 +493,10 @@ p {
 /*===== NAVBAR NINE =====*/
 .navbar-area.navbar-nine {
   /* background: var(--primary); */
+  background: rgba(255, 255, 255, 0.5);
+  /* background: #F1E8F5;
+  opacity: 0.8; */
+  backdrop-filter: blur(10px) !important;
   padding: 10px 0;
   position: absolute;
   left: 0;
@@ -1478,7 +1482,7 @@ p {
   margin-top: 30px;
   /* background-color: var(--white); */
   transition: all 0.4s ease;
-  padding: 30px 40px;
+  padding: 17px 25px;
   text-align: left;
   z-index: 0;
   box-sizing: border-box;

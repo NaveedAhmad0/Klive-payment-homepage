@@ -2,7 +2,7 @@ import React from "react";
 import "./services.css";
 import Ellipse from "../../img/Ellipse 13.png";
 import Ellipse1 from "../../img/Ellipse 12.png";
-import Ellipse2 from "../../img/Ellipse 11.png";
+import Ellipse2 from "../../assets/Logo/services.png";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 
@@ -164,28 +164,22 @@ function service() {
 			<Carousel breakPoints={breakPoints} pagination={false} itemsToShow={3}>
 				<Item>
 					<section id="testimonials" class="services-area services-eight">
-						{/* <!--======  Start Section Title Five ======--> */}
-						<div class="section-title-five">{/* <!-- container --> */}</div>
-						{/* <!--======  End Section Title Five ======--> */}
+						<div class="section-title-five"></div>
 						<div class="container">
 							<div class="row">
 								<div class="mx-auto col-lg-12 col-md-6">
 									<div class="single-services">
 										<div class="service-content">
 											<p>
-												I have never used something so easy and
-												efficient.KlivePay has become my number one choice for
-												receiving payments and that is such an easy decision to
-												make!
+											I have never used something so easy and efficient.KlivePay has become my number one choice for receiving payments and that is such an easy decision to make!
 											</p>
 										</div>
 
 										<div class="service-icon">
-											{/* <i class="lni lni-capsule"></i> */}
-											<img src={Ellipse2} alt="testimonial" height={"75px"} />
+											<img src={Ellipse2} alt="testimonial" height={"75px"} style={{borderRadius:"50%"}} />
 											<div className="Paragrap">
-												<h6>Theresa Webb</h6>
-												<p>Head Of Finance</p>
+												<h6>Charlie Kim</h6>
+												<p>Finance Manager</p>
 											</div>
 										</div>
 										<div></div>
@@ -195,11 +189,9 @@ function service() {
 						</div>
 					</section>
 				</Item>
-				<Item>
+				{/* <Item>
 					<section id="testimonials" class="services-area services-eight">
-						{/* <!--======  Start Section Title Five ======--> */}
-						<div class="section-title-five">{/* <!-- container --> */}</div>
-						{/* <!--======  End Section Title Five ======--> */}
+						<div class="section-title-five"></div>
 						<div class="container">
 							<div class="row">
 								<div class="mx-auto col-lg-12 col-md-6">
@@ -214,7 +206,6 @@ function service() {
 										</div>
 
 										<div class="service-icon">
-											{/* <i class="lni lni-capsule"></i> */}
 											<img src={Ellipse} alt="testimonial" height={"75px"} />
 											<div className="Paragrap">
 												<h6>Albert Flores</h6>
@@ -230,9 +221,7 @@ function service() {
 				</Item>
 				<Item>
 					<section id="testimonials" class="services-area services-eight">
-						{/* <!--======  Start Section Title Five ======--> */}
-						<div class="section-title-five">{/* <!-- container --> */}</div>
-						{/* <!--======  End Section Title Five ======--> */}
+						<div class="section-title-five"></div>
 						<div class="container">
 							<div class="row">
 								<div class="mx-auto col-lg-12 col-md-6">
@@ -247,7 +236,7 @@ function service() {
 										</div>
 
 										<div class="service-icon">
-											{/* <i class="lni lni-capsule"></i> */}
+										
 											<img src={Ellipse1} alt="testimonial" height={"75px"} />
 											<div className="Paragrap">
 												<h6>Charlie Kim</h6>
@@ -260,12 +249,12 @@ function service() {
 							</div>
 						</div>
 					</section>
-				</Item>
-				<Item>
+				</Item> */}
+				{/* <Item>
 					<section id="testimonials" class="services-area services-eight">
-						{/* <!--======  Start Section Title Five ======--> */}
-						<div class="section-title-five">{/* <!-- container --> */}</div>
-						{/* <!--======  End Section Title Five ======--> */}
+						
+						<div class="section-title-five"></div>
+						
 						<div class="container">
 							<div class="row">
 								<div class="mx-auto col-lg-12 col-md-6">
@@ -280,7 +269,6 @@ function service() {
 										</div>
 
 										<div class="service-icon justify-content-between">
-											{/* <i class="lni lni-capsule"></i> */}
 											<img src={Ellipse2} alt="testimonial" />
 											<br />
 											<div className="Paragrap">
@@ -294,7 +282,7 @@ function service() {
 							</div>
 						</div>
 					</section>
-				</Item>
+				</Item> */}
 			</Carousel>
 		</>
 	);

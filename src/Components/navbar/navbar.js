@@ -15,25 +15,25 @@ const navbar = () => {
 								<Container>
 									<Navbar.Brand
 										href="#home"
-										style={{ fontSize: "23px", fontWeight: "800" }}>
+										style={{ fontSize: "23px", fontWeight: "900",  }}>
 										<img src={logo} alt="logo" width={160} height={60} />
 									</Navbar.Brand>
 									<Navbar.Toggle aria-controls="basic-navbar-nav" />
 									<Navbar.Collapse id="basic-navbar-nav">
 										<Nav className="me-auto" style={{ marginLeft: "auto" }}>
-											<Nav.Link className="nav-links" href="#introduction">
+											<Nav.Link className="nav-links fw-bolder" href="#introduction">
 												Introduction
 											</Nav.Link>
-											<Nav.Link className="nav-links" href="#whatwedo">
+											<Nav.Link className="nav-links fw-bolder" href="#whatwedo">
 												What We Do
 											</Nav.Link>
-											<Nav.Link className="nav-links" href="#ourservices">
+											<Nav.Link className="nav-links fw-bolder" href="#ourservices">
 												Our Services
 											</Nav.Link>
-											<Nav.Link className="nav-links" href="#channeloffered">
-												Channel Offered
+											<Nav.Link className="nav-links fw-bolder" href="#channeloffered">
+												Channels
 											</Nav.Link>
-											<Nav.Link className="nav-links" href="#testimonials">
+											<Nav.Link className="nav-links fw-bolder" href="#testimonials">
 												Testimonials
 											</Nav.Link>
 										</Nav>

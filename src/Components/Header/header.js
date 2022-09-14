@@ -13,8 +13,7 @@ const header = () => {
 						<div class="col-lg-6 col-md-12 col-12">
 							<div class="header-content ">
 								<h1 className="text-black">
-									Welcome to KlivePay. The Easiest and Safest Way Payment
-									Gateway for You.
+									Welcome to KlivePay.<br></br> The Easiest and Safeway Payment Gateway For You
 								</h1>
 								<p className="text-black fs-5">
 									KlivePay is the premier payment gateway allowing global users

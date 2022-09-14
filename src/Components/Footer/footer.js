@@ -55,19 +55,19 @@ const footer = () => {
 									<div class="footer-widget belowLine f-link">
 										<div className="d-flex justify-content-between">
 											<p>
-												<a href="home">Introduction</a>
+												<a href="#introduction">Introduction</a>
 											</p>
 											<p>
-												<a href="home">What we do</a>
+												<a href="#whatwedo">What we do</a>
 											</p>
 											<p>
-												<a href="home">About</a>
+												<a href="#ourservices">Our Services</a>
 											</p>
 											<p>
-												<a href="home">Service</a>
+												<a href="#channeloffered">Channels</a>
 											</p>
 											<p>
-												<a href="home">Pricing</a>
+												<a href="#testimonials">Testimonials</a>
 											</p>
 										</div>
 									</div>

@@ -11,25 +11,22 @@ import {
 import Bgimg from "../../assets/Group 1000006452.png";
 const price = () => {
 	return (
-		<div>
+		<div >
 			{/* <!-- Start Pricing  Area --> */}
-			<section id="whatwedo" class="pricing-area pricing-fourteen">
+			<section  class="pricing-area pricing-fourteen">
 				{/* <!--======  Start Section Title Five ======--> */}
-				<div class="section-title-five">
+				<div id="whatwedo" class="section-title-five">
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
 								<div class="content">
 									{/* <h6>Pricing</h6> */}
-									<h1 class="fw-bold">What we Do</h1>
+									<h1  class="fw-bold">What we Do</h1>
 									<p>
-										KlivePay accepts multiple payment methods. KlivePay enables
-										users to boost your online presence and customer acquisition
-										by seamlessly and securely accepting multiple major payment
-										methods. Acting as a unified platform for all payments
-										across multiple platforms, KlivePay will boost your business
-										and experience by being a one-stop dashboard for managing,
-										accepting and making payments.
+									KlivePay accepts multiple payment methods and enables you to boost your online presence and customer acquisition by seamlessly and securely accepting payments via select major payment methods.
+									<br></br>
+									<br></br>
+									Acting as a unified platform for all payments across multiple platforms, KlivePay boosts your business and experience by being a one-stop dashboard for managing, accepting and making payments.
 									</p>
 								</div>
 							</div>
@@ -39,7 +36,7 @@ const price = () => {
 					{/* <!-- container --> */}
 				</div>
 				{/* <!--======  End Section Title Five ======--> */}
-				<div class="container" className="bgimg">
+				<div className="container bgimg">
 					<div class="row">
 						<div class="col-lg-4 col-md-6 col-12">
 							<div class="pricing-style-fourteen">
@@ -56,9 +53,7 @@ const price = () => {
 								<div class="table-head">
 									<h3>Fast!</h3>
 									<p style={{ fontSize: "16px" }}>
-										Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-										Enim conse ctetur urna vitae magnis ipsum dolor sit sit
-										amet.
+									KlivePay focuses on widely accepted and used payment methods, and our priority is fast and hassle-free settlements.
 									</p>
 								</div>
 							</div>
@@ -78,9 +73,7 @@ const price = () => {
 								<div class="table-head">
 									<h3>Efficient flow!</h3>
 									<p style={{ fontSize: "16px" }}>
-										Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-										Enim conse ctetur urna vitae magnis ipsum dolor sit sit
-										amet.
+									KlivePay is optimized to enable quick transactions by utilizing QR Codes and a backend that is secure and built for mass adoption.
 									</p>
 								</div>
 							</div>
@@ -94,15 +87,13 @@ const price = () => {
 										color: "white",
 										padding: "0.7rem",
 										borderRadius: "5px",
-										marginBottom: "0.7rem",
+										// marginBottom: "0.7rem",
 									}}
 								/>
 								<div class="table-head text-left">
 									<h3>Responsive!</h3>
 									<p style={{ fontSize: "16px" }}>
-										Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-										Enim conse ctetur urna vitae magnis ipsum dolor sit sit
-										amet.
+									We strive on always keeping our users’ pleasant experience on the top of our to-do list. Our dedicated Customer Service Team is trained to always provide on-time and effective solutions to any issues any user might face!
 									</p>
 								</div>
 							</div>

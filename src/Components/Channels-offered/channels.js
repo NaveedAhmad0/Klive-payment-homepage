@@ -18,7 +18,7 @@ const channels = () => {
 					<div className="row align-items-center">
 						<div className="col-lg-6 col-md-12 col-12">
 							<div>
-								<h2 className="header-content ">Channels Offered</h2>
+								<h2 className="header-content ">Payment Methods Accepted</h2>
 								<p>
 									The fastest, easiest and most secure payment method today is
 									QR Code payment. KlivePay will allow usage of QR Code payments
@@ -28,7 +28,7 @@ const channels = () => {
 							<br></br>
 							<div className="cardservices">
 								<div className="card-body header-content d-flex">
-									<div style={{ padding: "1rem" }}>
+									<div style={{ marginTop:"1.5rem",padding: "1rem" }}>
 										<FontAwesomeIcon
 											icon={faQrcode}
 											style={{
@@ -42,7 +42,7 @@ const channels = () => {
 
 									<div>
 										<h5 className="text-black">QR Code</h5>
-										<p className="text-black" style={{ margin: "0px" }}>
+										<p className="text-black" style={{ marginTop: "0" }}>
 											The fastest, easiest and most secure payment method today
 											is QR Code payment. KlivePay will allow usage of QR Code
 											payments and more will be added eventually.
@@ -51,7 +51,7 @@ const channels = () => {
 								</div>
 							</div>
 							<br></br>
-							<div className="cardservices">
+							{/* <div className="cardservices">
 								<div className="card-body header-content d-flex">
 									<div style={{ padding: "1rem" }}>
 										<FontAwesomeIcon
@@ -99,7 +99,7 @@ const channels = () => {
 										</p>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 						<div className="col-lg-6 col-md-12 col-12">
 							<div className="header-image channel-header-image header-imagecontent">

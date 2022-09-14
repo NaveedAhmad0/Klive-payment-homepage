@@ -7,5 +7,4 @@ export default styled.div`
 	width: 700px;
 	padding:30px 100px
 	margin:0rem 10px;
-	
 `;
