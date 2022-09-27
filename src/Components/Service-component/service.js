@@ -138,7 +138,7 @@ function service() {
 	];
 	return (
 		<>
-			<section
+			<section 
 				id="testimonials"
 				class="services-area serviceSection services-eight">
 				{/* <!--======  Start Section Title Five ======--> */}
@@ -189,7 +189,7 @@ function service() {
 						</div>
 					</section>
 				</Item>
-				{/* <Item>
+				<Item>
 					<section id="testimonials" class="services-area services-eight">
 						<div class="section-title-five"></div>
 						<div class="container">
@@ -249,8 +249,8 @@ function service() {
 							</div>
 						</div>
 					</section>
-				</Item> */}
-				{/* <Item>
+				</Item> 
+				<Item>
 					<section id="testimonials" class="services-area services-eight">
 						
 						<div class="section-title-five"></div>
@@ -282,7 +282,7 @@ function service() {
 							</div>
 						</div>
 					</section>
-				</Item> */}
+				</Item>
 			</Carousel>
 		</>
 	);
