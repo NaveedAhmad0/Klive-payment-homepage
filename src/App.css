@@ -504,7 +504,7 @@ p {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 9;
+  z-index: 9999;
 }
 .sticky {
   position: fixed !important;
