@@ -31,7 +31,7 @@ const ApiDetails = () => {
 
 						<div className="box-list">
 							This documentation describes the protocol of communication between
-							a payee and Klive payment gateway and serves as a guide for
+							a payee and KlivePay payment gateway and serves as a guide for
 							arranging acceptance of payments for goods and (or) services.
 						</div>
 
@@ -402,17 +402,17 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"merchantNameEnglish"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"merchant"</span>
+									<span className="token string">"John Doe"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"name"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"merchant"</span>
+									<span className="token string">"John"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"mobile"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"9878767876"</span>
+									<span className="token string">"1234567890"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"password"</span>
@@ -424,7 +424,7 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"merchantName"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"merchant"</span>
+									<span className="token string">"john"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"personType"</span>
@@ -434,57 +434,57 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"InitialShop"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"sjdlksdfh"</span>
+									<span className="token string">"shop name"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"firstName"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"merch"</span>
+									<span className="token string">"john"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"surName"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"ant"</span>
+									<span className="token string">"doe"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"yearOfBirth"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"1999"</span>
+									<span className="token string">"yyyy"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"monthOfBirth"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"12"</span>
+									<span className="token string">"mm"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"dayOfBirth"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"12"</span>
+									<span className="token string">"DD"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"address"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"sdjfkhsjd"</span>
+									<span className="token string">"Johns address"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"province"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"kjhsdfkjh"</span>
+									<span className="token string">"Johns Province"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"district"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"skdjfh"</span>
+									<span className="token string">"Johns district"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"subDivision"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"skdjfh"</span>
+									<span className="token string">"Johns Subdivision"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"pincode"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"12312312"</span>
+									<span className="token string">"1234567"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"shopType"</span>
@@ -529,7 +529,7 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"website"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"www.weebsite.com/"</span>
+									<span className="token string">"www.website.com/"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"facebook"</span>
@@ -539,7 +539,7 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"linkedin"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"linkedin"</span>
+									<span className="token string">"www.linkedin.com"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"instagram"</span>
@@ -554,12 +554,12 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"company"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"sdkjf"</span>
+									<span className="token string">"Company name"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"bank"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"skdjfhk"</span>
+									<span className="token string">"Bank name"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"bankAccount"</span>
@@ -569,27 +569,27 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"rnfCode"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"ksjdhf"</span>
+									<span className="token string">"RNF Code"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"domestic"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"jdhfskj"</span>
+									<span className="token string">"Domestic"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"inter"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"kjdhfhkjsdf"</span>
+									<span className="token string">"Inter "</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"rateQrCode"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"ksjdfh"</span>
+									<span className="token string">"Qr code"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"rateBarCode"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"kjhsdkf"</span>
+									<span className="token string">"Bar Code"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"copyOfId"</span>
@@ -1154,7 +1154,7 @@ const ApiDetails = () => {
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"merchantId"</span>
-									<span className="token punctuation">:</span> 18fq
+									<span className="token punctuation">:</span>
 									<span className="token string">
 										"182sub4b-6a92-4f4f-bdca-e25dh5sd1a3"
 									</span>
@@ -1162,22 +1162,22 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"invoiceRefId"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"inv#801492"</span>
+									<span className="token string">"inv#1234"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"mobile"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"9876767876"</span>
+									<span className="token string">"1234567890"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"billTo"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"user1@gmail.com"</span>
+									<span className="token string">"test@gmail.com"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"billFrom"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"merchant1@gmail.com"</span>
+									<span className="token string">"testmerchant@gmail.com"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"status"</span>
@@ -1256,22 +1256,22 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"invoiceRefId"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"inv#251822"</span>
+									<span className="token string">"inv#12345"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"mobile"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"123456789"</span>
+									<span className="token string">"1234567890"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"billTo"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"user1@gmail.com"</span>
+									<span className="token string">"testUser@gmail.com"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"billFrom"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"merchant1@gmail.com"</span>
+									<span className="token string">"testMerchant@gmail.com"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"status"</span>
@@ -1331,7 +1331,7 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"note"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token number">null</span>
+									<span className="token number">null</span> <br />
 									<span className="token punctuation">{"}"}</span>
 									<span className="token punctuation">{"]"}</span>
 									<span className="line-numbers-rows">
@@ -1413,22 +1413,22 @@ const ApiDetails = () => {
 									<br />
 									<span className="token string">"invoiceRefId"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"inv#801492"</span>
+									<span className="token string">"inv#12345"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"mobile"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"9876767876"</span>
+									<span className="token string">"1234567890"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"billTo"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"user1@gmail.com"</span>
+									<span className="token string">"testUser@gmail.com"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"billFrom"</span>
 									<span className="token punctuation">:</span>{" "}
-									<span className="token string">"merchant1@gmail.com"</span>
+									<span className="token string">"testMerchant@gmail.com"</span>
 									<span className="token punctuation">,</span>
 									<br />
 									<span className="token string">"status"</span>
