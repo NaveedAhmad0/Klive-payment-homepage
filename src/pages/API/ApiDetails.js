@@ -40,39 +40,41 @@ const ApiDetails = () => {
 							payee’s edge.
 						</div>
 
-						<table>
-							<thead>
-								<tr>
-									<td>&nbsp;</td>
-									{/* <!-- <td>Sandbox</td> --> */}
-									<td>Production server</td>
-								</tr>
-							</thead>
+						<div className="table-responsive">
+							<table className="table">
+								<thead>
+									<tr>
+										<td>&nbsp;</td>
+										{/* <e!-- <td>Sandbox</td> --> */}
+										<td>Production server</td>
+									</tr>
+								</thead>
 
-							<tbody>
-								<tr className="color">
-									<td>IP-address</td>
-									{/* <!-- <td>54.169.228.181</td> --> */}
-									<td>27.131.178.239</td>
-								</tr>
-								<tr>
-									<td>Communication URL</td>
-									{/* <!-- <td>https://api.sandbox.expay.asia/merchant/</td> --> */}
-									<td>https://backend.klivepay.com/api/</td>
-								</tr>
-								<tr className="color">
-									<td>Client area</td>
-									{/* <!-- <td>https://client.sandbox.expay.asia/</td> --> */}
-									<td>https://klivepay.com/merchant</td>
-								</tr>
-								<tr>
-									{/* <!--<td>Test Utilities</td> */}
-									{/* <td>https://api.sandbox.expay.asia/merchant/tools</td>
+								<tbody>
+									<tr className="color">
+										<td>IP-address</td>
+										{/* <!-- <td>54.169.228.181</td> --> */}
+										<td>27.131.178.239</td>
+									</tr>
+									<tr>
+										<td>Communication URL</td>
+										{/* <!-- <td>https://api.sandbox.expay.asia/merchant/</td> --> */}
+										<td>https://backend.klivepay.com/api/</td>
+									</tr>
+									<tr className="color">
+										<td>Client area</td>
+										{/* <!-- <td>https://client.sandbox.expay.asia/</td> --> */}
+										<td>https://klivepay.com/merchant</td>
+									</tr>
+									<tr>
+										{/* <!--<td>Test Utilities</td> */}
+										{/* <td>https://api.sandbox.expay.asia/merchant/tools</td>
             <td>https://api.expay.asia/merchant/tools</td>
             </tr>--> */}
-								</tr>
-							</tbody>
-						</table>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 
 						<h4 className="h4Head">
 							The complete payment process is described below in the Sequence
