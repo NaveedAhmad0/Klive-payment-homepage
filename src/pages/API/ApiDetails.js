@@ -93,7 +93,7 @@ const ApiDetails = () => {
 
 						{/* <!-- Registration api --> */}
 
-						<div>
+						{/* <div>
 							<div className="titleBox">
 								<h5>Registration api</h5>
 							</div>
@@ -210,7 +210,7 @@ const ApiDetails = () => {
 									</span>
 								</code>
 							</pre>
-						</div>
+						</div> */}
 
 						{/* // <!-- Login Api --> */}
 
@@ -220,7 +220,9 @@ const ApiDetails = () => {
 							</div>
 
 							<pre>
-								<code>https://backend.klivepay.com/api/merchant/login</code>
+								<code>
+									https://backend.klivepay.com/api/merchant/authentication
+								</code>
 							</pre>
 
 							<div className="box-list">
@@ -242,6 +244,9 @@ const ApiDetails = () => {
 										<span>,</span>
 										<br />
 										<span>"password"</span>
+										<span>:</span> <span>"string"</span>
+										<br />
+										<span>"ApiKey"</span>
 										<span>:</span> <span>"string"</span>
 										<br />
 										<span>{"}"}</span>
