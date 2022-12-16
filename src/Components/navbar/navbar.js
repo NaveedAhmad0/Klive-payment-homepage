@@ -1,4 +1,5 @@
 import React from "react";
+import { Dropdown } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -47,13 +48,62 @@ const navbar = () => {
 												Testimonials
 											</Nav.Link>
 										</Nav>
-										<div class="navbar-btn d-lg-inline-block">
-											<button class="button-17">Register</button>
+										<div className="navbar-btn d-lg-inline-block">
+											<Dropdown>
+												<Dropdown.Toggle
+													variant="info"
+													className="button-17"
+													id="dropdown-basic">
+													Register
+												</Dropdown.Toggle>
+
+												<Dropdown.Menu>
+													<Dropdown.Item href="https://klivepay.com/user/login">
+														User
+													</Dropdown.Item>
+													<Dropdown.Item href="https://klivepay.com/merchant/login">
+														Merchant
+													</Dropdown.Item>
+												</Dropdown.Menu>
+											</Dropdown>
+											{/* <div className="dropdown" style={{ zIndex: 9999 }}>
+												<button
+													className="btn btn-info text-white dropdown-toggle"
+													type="button"
+													id="dropdownMenuButton1"
+													data-bs-toggle="dropdown"
+													aria-expanded="false">
+													Register
+												</button>
+												<ul
+													className="dropdown-menu"
+													aria-labelledby="dropdownMenuButton1">
+													<li>
+														<a
+															className="dropdown-item"
+															href="sldf"
+
+															// href="https://klivepay.com/user/login"
+														>
+															User
+														</a>
+													</li>
+													<li>
+														<a
+															className="dropdown-item"
+															href="sldf"
+															// href="https://klivepay.com/merchant/login"
+														>
+															Merchant
+														</a>
+													</li>
+												</ul>
+											</div> */}
 										</div>
 									</Navbar.Collapse>
 								</Container>
 							</Navbar>
-							{/* <nav class="navbar navbar-expand-lg">
+							{/* <nav AclassName="navbar navbar-expand-lg">
           <a class="navbar-brand" href="index.html">
             <h2>Logo</h2>
           </a>
